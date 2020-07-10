@@ -50,32 +50,6 @@
 
 
 
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.lug.ustc.edu.cn/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
-
-
-
 
 
 
@@ -113,7 +87,7 @@
 <meta name="description" content="Weclome to my site，I’M YINICX">
 <meta property="og:type" content="website">
 <meta property="og:title" content="About Me">
-<meta property="og:url" content="http://yoursite.com/about/index.html">
+<meta property="og:url" content="http://yinicx.cn/about/index.html">
 <meta property="og:site_name" content="YINICX&#39;S BlOG">
 <meta property="og:description" content="Weclome to my site，I’M YINICX">
 <meta property="og:locale" content="en_US">
@@ -150,7 +124,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/about/"/>
+  <link rel="canonical" href="http://yinicx.cn/about/"/>
 
 
 
@@ -346,6 +320,9 @@
 
           
 
+  
+    <div class="comments" id="comments">
+    </div>
   
 
 
@@ -934,6 +911,28 @@ if(canvas.getContext){
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: '6VUz1nI7pAeISTVNvOFSydPt-gzGzoHsz',
+        appKey: 'ioHqXkDFo4xLfkhHEO6qaE7v',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
