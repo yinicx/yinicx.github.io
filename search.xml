@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>红玫瑰-李敖</title>
-    <url>/p9a9c24df.html</url>
+    <url>/posts/9a9c24df.html</url>
     <content><![CDATA[<hr>
 <p>那一年夏天到来的时候，玫园的花全开放了。</p>
 <p>玫园的主人知道我对玫瑰有一种微妙的敏感，特地写信来，请我到他家里去看花。三天以后的一个黄昏，我坐在玫园主人的客厅里，从窗口向外望着，望着那一棵棵盛开的蔷薇，默然不语。直到主人提醒我手中的清茶快要冷了的时候，我才转过头来，向主人做了一个很苦涩的笑容。主人站起身来，拍掉衣上的烟灰，走到窗前，一面得意地点着头，一面自言自语：</p>
@@ -58,28 +58,200 @@
       </tags>
   </entry>
   <entry>
-    <title>你好啊</title>
-    <url>/p34afdeeb.html</url>
+    <title>大家好</title>
+    <url>/posts/34afdeeb.html</url>
     <content><![CDATA[<p>生活在这个世界上的人：有的是弱者；有的是强<br>者；有的要别人来设定目标，有的给别人设定目标；<br>有的需要感情支持生活，有的需要意志支持生活。我<br>大概在每一对概念中都会选择做后一种人。</p>
 <hr>
 ]]></content>
   </entry>
   <entry>
-    <title>jiqixuxi</title>
-    <url>/pedc2.html</url>
+    <title>测试网页对LaTex公式的渲染效果</title>
+    <url>/posts/edc2.html</url>
     <content><![CDATA[<p><img src="https://file.elecfans.com/web1/M00/9D/7B/pIYBAF0xihCAb2mbAADKh9lXEYc622.jpg" alt="机器学习"></p>
 <h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><a id="more"></a>
-<h2 id="测试-1"><a href="#测试-1" class="headerlink" title="测试"></a>测试</h2><h3 id="测试-2"><a href="#测试-2" class="headerlink" title="测试"></a>测试</h3><pre><code>测试
-测试
-测试
-测试</code></pre>]]></content>
+
+<hr>
+<h2 id="行间插入"><a href="#行间插入" class="headerlink" title="行间插入"></a>行间插入</h2><pre><code>\\(a + b\\)</code></pre><p>\(a + b\)</p>
+<hr>
+<h2 id="另取一行"><a href="#另取一行" class="headerlink" title="另取一行"></a>另取一行</h2><pre><code>$$a + b$$</code></pre><p>$$a + b$$</p>
+<hr>
+<h2 id="下标"><a href="#下标" class="headerlink" title="下标"></a>下标</h2><pre><code>$$x_1$$
+
+$$x_1^2$$
+
+$$x^2_1$$
+
+$$x_{22}^{(n)}$$
+
+$${}^*x^*$$
+
+$$x_{balabala}^{bala}$$</code></pre><p>$$x_1$$</p>
+<p>$$x_1^2$$</p>
+<p>$$x^2_1$$</p>
+<p>$$x_{22}^{(n)}$$</p>
+<p>$${}^<em>x^</em>$$</p>
+<p>$$x_{balabala}^{bala}$$</p>
+<hr>
+<h2 id="分式"><a href="#分式" class="headerlink" title="分式"></a>分式</h2><pre><code>$$\frac{x+y}{2}$$
+
+$$\frac{1}{1+\frac{1}{2}}$$</code></pre><p>$$\frac{x+y}{2}$$</p>
+<p>$$\frac{1}{1+\frac{1}{2}}$$</p>
+<hr>
+<h2 id="根式"><a href="#根式" class="headerlink" title="根式"></a>根式</h2><pre><code>$$\sqrt{2}&lt;\sqrt[3]{3}$$
+
+$$\sqrt{1+\sqrt[p]{1+a^2}}$$
+
+$$\sqrt{1+\sqrt[^p\!]{1+a^2}}$$</code></pre><p>$$\sqrt{2}&lt;\sqrt[3]{3}$$</p>
+<p>$$\sqrt{1+\sqrt[p]{1+a^2}}$$</p>
+<p>$$\sqrt{1+\sqrt[^p!]{1+a^2}}$$</p>
+<hr>
+<h2 id="求和积分"><a href="#求和积分" class="headerlink" title="求和积分"></a>求和积分</h2><pre><code>$$\sum_{k=1}^{n}\frac{1}{k}$$
+
+$\sum_{k=1}^n\frac{1}{k}$
+
+$$\int_a^b f(x)dx$$
+
+$\int_a^b f(x)dx$</code></pre><p>$$\sum_{k=1}^{n}\frac{1}{k}$$</p>
+<p>$\sum_{k=1}^n\frac{1}{k}$</p>
+<p>$$\int_a^b f(x)dx$$</p>
+<p>$\int_a^b f(x)dx$</p>
+<hr>
+<h2 id="空格"><a href="#空格" class="headerlink" title="空格"></a>空格</h2><pre><code>紧贴 $a\!b$
+没有空格 $ab$
+小空格 a\,b
+中等空格 a\;b
+大空格 a\ b
+quad空格 $a\quad b$
+两个quad空格 $a\qquad b$</code></pre><p>紧贴 $a!b$<br>没有空格 $ab$<br>小空格 a,b<br>中等空格 a;b<br>大空格 a\ b<br>quad空格 $a\quad b$<br>两个quad空格 $a\qquad b$<br>    $$\int_a^b f(x)\mathrm{d}x$$</p>
+<pre><code>$$\int_a^b f(x)\,\mathrm{d}x$$</code></pre><p>$$\int_a^b f(x)\mathrm{d}x$$</p>
+<p>$$\int_a^b f(x),\mathrm{d}x$$</p>
+<hr>
+<h2 id="公式界定符"><a href="#公式界定符" class="headerlink" title="公式界定符"></a>公式界定符</h2><p>\( ( \)<br>\( ) \)<br>\( [ \)<br>\( ] \)<br>\( \{ \)<br>\( \} \)<br>\( | \)<br>\( \| \)</p>
+<p>掘金：<br>$ ( $<br>$ ) $<br>$ [ $<br>$ ] $<br>$ { $<br>$ } $<br>$ | $<br>$ | $</p>
+<hr>
+<h2 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h2><pre><code>$$\begin{matrix}1 &amp; 2\\\\3 &amp;4\end{matrix}$$
+
+$$\begin{pmatrix}1 &amp; 2\\\\3 &amp;4\end{pmatrix}$$
+
+$$\begin{bmatrix}1 &amp; 2\\\\3 &amp;4\end{bmatrix}$$
+
+$$\begin{Bmatrix}1 &amp; 2\\\\3 &amp;4\end{Bmatrix}$$
+
+$$\begin{vmatrix}1 &amp; 2\\\\3 &amp;4\end{vmatrix}$$
+
+$$\left|\begin{matrix}1 &amp; 2\\\\3 &amp;4\end{matrix}\right|$$
+
+$$\begin{Vmatrix}1 &amp; 2\\\\3 &amp;4\end{Vmatrix}$$</code></pre><p>$$\begin{matrix}1 &amp; 2\\3 &amp;4\end{matrix}$$</p>
+<p>$$\begin{pmatrix}1 &amp; 2\\3 &amp;4\end{pmatrix}$$</p>
+<p>$$\begin{bmatrix}1 &amp; 2\\3 &amp;4\end{bmatrix}$$</p>
+<p>$$\begin{Bmatrix}1 &amp; 2\\3 &amp;4\end{Bmatrix}$$</p>
+<p>$$\begin{vmatrix}1 &amp; 2\\3 &amp;4\end{vmatrix}$$</p>
+<p>$$\left|\begin{matrix}1 &amp; 2\\3 &amp;4\end{matrix}\right|$$</p>
+<p>$$\begin{Vmatrix}1 &amp; 2\\3 &amp;4\end{Vmatrix}$$</p>
+<hr>
+<h2 id="排版数组"><a href="#排版数组" class="headerlink" title="排版数组"></a>排版数组</h2><pre><code>\mathbf{X} =
+\left( \begin{array}{ccc}
+x\_{11} &amp; x\_{12} &amp; \ldots \\\\
+x\_{21} &amp; x\_{22} &amp; \ldots \\\\
+\vdots &amp; \vdots &amp; \ddots
+\end{array} \right)</code></pre><p>\mathbf{X} =<br>\left( \begin{array}{ccc}<br>x_{11} &amp; x_{12} &amp; \ldots \\<br>x_{21} &amp; x_{22} &amp; \ldots \\<br>\vdots &amp; \vdots &amp; \ddots<br>\end{array} \right)</p>
+<hr>
+<h2 id="长公式"><a href="#长公式" class="headerlink" title="长公式"></a>长公式</h2><pre><code>$$
+\begin{multline}
+x = a+b+c+{} \\\\
+d+e+f+g
+\end{multline}
+$$
+
+$$
+\begin{aligned}
+x ={}&amp; a+b+c+{} \\\\
+&amp;d+e+f+g
+\end{aligned}
+$$</code></pre><p>$$<br>\begin{multline}<br>x = a+b+c+{} \\<br>d+e+f+g<br>\end{multline}<br>$$</p>
+<p>$$<br>\begin{aligned}<br>x ={}&amp; a+b+c+{} \\<br>&amp;d+e+f+g<br>\end{aligned}<br>$$</p>
+<hr>
+<h2 id="公式组"><a href="#公式组" class="headerlink" title="公式组"></a>公式组</h2><pre><code>$$
+\begin{gather}
+a = b+c+d \\\\
+x = y+z
+\end{gather}
+$$
+
+$$
+\begin{align}
+a &amp;= b+c+d \\\\
+x &amp;= y+z
+\end{align}
+$$</code></pre><p>$$<br>\begin{gather}<br>a = b+c+d \\<br>x = y+z<br>\end{gather}<br>$$</p>
+<p>$$<br>\begin{align}<br>a &amp;= b+c+d \\<br>x &amp;= y+z<br>\end{align}<br>$$</p>
+<hr>
+<h2 id="分段函数"><a href="#分段函数" class="headerlink" title="分段函数"></a>分段函数</h2><pre><code>$$
+y=\begin{cases}
+-x,\quad x\leq 0 \\\\
+x,\quad x&gt;0
+\end{cases}
+$$</code></pre><p>$$<br>y=\begin{cases}<br>-x,\quad x\leq 0 \\<br>x,\quad x&gt;0<br>\end{cases}<br>$$</p>
+<hr>
+<h2 id="划线数组"><a href="#划线数组" class="headerlink" title="划线数组"></a>划线数组</h2><pre><code>$$
+\left(\begin{array}{|c|c|}
+1 &amp; 2 \\\\
+\\hline
+3 &amp; 4
+\end{array}\right)
+$$</code></pre><p>$$<br>\left(\begin{array}{|c|c|}<br>1 &amp; 2 \\<br>\hline<br>3 &amp; 4<br>\end{array}\right)<br>$$</p>
+<hr>
+<h2 id="制表"><a href="#制表" class="headerlink" title="制表"></a>制表</h2><pre><code>$$
+\begin{array}{|c|c|}
+\hline
+{1111111111} &amp; 2 \\\\
+\hline
+3 &amp; 4 \\\\
+\hline
+\end{array}
+$$</code></pre><p>$$<br>\begin{array}{|c|c|}<br>\hline<br>{1111111111} &amp; 2 \\<br>\hline<br>3 &amp; 4 \\<br>\hline<br>\end{array}<br>$$</p>
+<hr>
+<h2 id="常用希腊字母"><a href="#常用希腊字母" class="headerlink" title="常用希腊字母"></a>常用希腊字母</h2><pre><code>$$
+\begin{array}{|c|c|c|c|c|c|c|c|}
+\hline
+{\alpha} &amp; {\backslash alpha} &amp; {\theta} &amp; {\backslash theta} &amp; {o} &amp; {o} &amp; {\upsilon} &amp; {\backslash upsilon} \\\\
+\hline
+{\beta} &amp; {\backslash beta} &amp; {\vartheta} &amp; {\backslash vartheta} &amp; {\pi} &amp; {\backslash pi} &amp; {\phi} &amp; {\backslash phi} \\\\
+\hline
+{\gamma} &amp; {\backslash gamma} &amp; {\iota} &amp; {\backslash iota} &amp; {\varpi} &amp; {\backslash varpi} &amp; {\varphi} &amp; {\backslash varphi} \\\\
+\hline
+{\delta} &amp; {\backslash delta} &amp; {\kappa} &amp; {\backslash kappa} &amp; {\rho} &amp; {\backslash rho} &amp; {\chi} &amp; {\backslash chi} \\\\
+\hline
+{\epsilon} &amp; {\backslash epsilon} &amp; {\lambda} &amp; {\backslash lambda} &amp; {\varrho} &amp; {\backslash varrho} &amp; {\psi} &amp; {\backslash psi} \\\\
+\hline
+{\varepsilon} &amp; {\backslash varepsilon} &amp; {\mu} &amp; {\backslash mu} &amp; {\sigma} &amp; {\backslash sigma} &amp; {\omega} &amp; {\backslash omega} \\\\
+\hline
+{\zeta} &amp; {\backslash zeta} &amp; {\nu} &amp; {\backslash nu} &amp; {\varsigma} &amp; {\backslash varsigma} &amp; {} &amp; {} \\\\
+\hline
+{\eta} &amp; {\backslash eta} &amp; {\xi} &amp; {\backslash xi} &amp; {\tau} &amp; {\backslash tau} &amp; {} &amp; {} \\\\
+\hline
+{\Gamma} &amp; {\backslash Gamma} &amp; {\Lambda} &amp; {\backslash Lambda} &amp; {\Sigma} &amp; {\backslash Sigma} &amp; {\Psi} &amp; {\backslash Psi} \\\\
+\hline
+{\Delta} &amp; {\backslash Delta} &amp; {\Xi} &amp; {\backslash Xi} &amp; {\Upsilon} &amp; {\backslash Upsilon} &amp; {\Omega} &amp; {\backslash Omega} \\\\
+\hline
+{\Omega} &amp; {\backslash Omega} &amp; {\Pi} &amp; {\backslash Pi} &amp; {\Phi} &amp; {\backslash Phi} &amp; {} &amp; {} \\\\
+\hline
+\end{array}
+$$</code></pre><p>$$<br>\begin{array}{|c|c|c|c|c|c|c|c|}<br>\hline<br>{\alpha} &amp; {\backslash alpha} &amp; {\theta} &amp; {\backslash theta} &amp; {o} &amp; {o} &amp; {\upsilon} &amp; {\backslash upsilon} \\<br>\hline<br>{\beta} &amp; {\backslash beta} &amp; {\vartheta} &amp; {\backslash vartheta} &amp; {\pi} &amp; {\backslash pi} &amp; {\phi} &amp; {\backslash phi} \\<br>\hline<br>{\gamma} &amp; {\backslash gamma} &amp; {\iota} &amp; {\backslash iota} &amp; {\varpi} &amp; {\backslash varpi} &amp; {\varphi} &amp; {\backslash varphi} \\<br>\hline<br>{\delta} &amp; {\backslash delta} &amp; {\kappa} &amp; {\backslash kappa} &amp; {\rho} &amp; {\backslash rho} &amp; {\chi} &amp; {\backslash chi} \\<br>\hline<br>{\epsilon} &amp; {\backslash epsilon} &amp; {\lambda} &amp; {\backslash lambda} &amp; {\varrho} &amp; {\backslash varrho} &amp; {\psi} &amp; {\backslash psi} \\<br>\hline<br>{\varepsilon} &amp; {\backslash varepsilon} &amp; {\mu} &amp; {\backslash mu} &amp; {\sigma} &amp; {\backslash sigma} &amp; {\omega} &amp; {\backslash omega} \\<br>\hline<br>{\zeta} &amp; {\backslash zeta} &amp; {\nu} &amp; {\backslash nu} &amp; {\varsigma} &amp; {\backslash varsigma} &amp; {} &amp; {} \\<br>\hline<br>{\eta} &amp; {\backslash eta} &amp; {\xi} &amp; {\backslash xi} &amp; {\tau} &amp; {\backslash tau} &amp; {} &amp; {} \\<br>\hline<br>{\Gamma} &amp; {\backslash Gamma} &amp; {\Lambda} &amp; {\backslash Lambda} &amp; {\Sigma} &amp; {\backslash Sigma} &amp; {\Psi} &amp; {\backslash Psi} \\<br>\hline<br>{\Delta} &amp; {\backslash Delta} &amp; {\Xi} &amp; {\backslash Xi} &amp; {\Upsilon} &amp; {\backslash Upsilon} &amp; {\Omega} &amp; {\backslash Omega} \\<br>\hline<br>{\Omega} &amp; {\backslash Omega} &amp; {\Pi} &amp; {\backslash Pi} &amp; {\Phi} &amp; {\backslash Phi} &amp; {} &amp; {} \\<br>\hline<br>\end{array}<br>$$</p>
+<hr>
+<h2 id="来自"><a href="#来自" class="headerlink" title="来自"></a>来自</h2><p><a href="https://juejin.im/post/5a6721bd518825733201c4a2" target="_blank" rel="noopener">https://juejin.im/post/5a6721bd518825733201c4a2</a></p>
+<hr>
+]]></content>
       <categories>
-        <category>hello</category>
+        <category>数学</category>
       </categories>
+      <tags>
+        <tag>LaTex</tag>
+      </tags>
   </entry>
   <entry>
     <title>域名地址修改</title>
-    <url>/p6696.html</url>
+    <url>/posts/6696.html</url>
     <content><![CDATA[<h2 id="滕王阁序"><a href="#滕王阁序" class="headerlink" title="滕王阁序"></a>滕王阁序</h2><p>【作者】王勃 【朝代】唐译文对照<br>豫章故郡，洪都新府。星分翼轸，地接衡庐。襟三江而带五湖，控蛮荆而引瓯越。物华天宝，龙光射牛斗之墟；人杰地灵，徐孺下陈蕃之榻。雄州雾列，俊采星驰。台隍枕夷夏之交，宾主尽东南之美。都督阎公之雅望，棨戟遥临；宇文新州之懿范，襜帷暂驻。十旬休假，胜友如云；千里逢迎，高朋满座。腾蛟起凤，孟学士之词宗；紫电青霜，王将军之武库。家君作宰，路出名区；童子何知，躬逢胜饯。</p>
 <p>时维九月，序属三秋。潦水尽而寒潭清，烟光凝而暮山紫。俨骖騑于上路，访风景于崇阿；临帝子之长洲，得天人之旧馆。层峦耸翠，上出重霄；飞阁流丹，下临无地。鹤汀凫渚，穷岛屿之萦回；桂殿兰宫，即冈峦之体势。</p>
 <p>披绣闼，俯雕甍，山原旷其盈视，川泽纡其骇瞩。闾阎扑地，钟鸣鼎食之家；舸舰弥津，青雀黄龙之舳。云销雨霁，彩彻区明。落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。</p>
@@ -101,7 +273,7 @@
   </entry>
   <entry>
     <title>CPU:Logisim实现效果</title>
-    <url>/pd1c6.html</url>
+    <url>/posts/d1c6.html</url>
     <content><![CDATA[<h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img src="/images/01/shanhe.gif" alt="logisim"></p>
 ]]></content>
       <categories>
@@ -114,7 +286,7 @@
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/p4a17b156.html</url>
+    <url>/posts/4a17b156.html</url>
     <content><![CDATA[<p>欢迎Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
